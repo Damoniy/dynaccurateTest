@@ -1,8 +1,6 @@
 # rest-api-dynaccurate-test
 
-====================================================
- 		             FOLLOW THIS STEPS
-====================================================
+#FOLLOW THIS STEPS
 
 INFO: THIS PROJECT WAS WRITTEN IN KOTLIN - JDK 11.
 
@@ -17,9 +15,8 @@ RABBITMQ MESSAGE CONSUMER -> docker command: docker pull damoniy/rabbitmq-consum
 
 4. That's it. 
 
-====================================================
-		               IMPORTANT
-====================================================
+#IMPORTANT
+
 You can also check the REST application in heroku instead of docker container: 
 https://mysterious-retreat-83549.herokuapp.com/
 
