@@ -10,8 +10,9 @@ INFO: THIS PROJECT WAS WRITTEN IN KOTLIN - JDK 11.
 1. First of all, use docker to get the images from dockerhub.
 
 
-REST API -> docker command: docker pull damoniy/dynaccurate-test:latest
-|-               | -               | RABBITMQ MESSAGE CONSUMER -> docker command: docker pull damoniy/rabbitmq-consumer:latest
+REST API: docker command: docker pull damoniy/dynaccurate-test:latest
+
+RABBITMQ MESSAGE CONSUMER: docker command: docker pull damoniy/rabbitmq-consumer:latest
 
 
 2. After pull the projects, run the two images.
