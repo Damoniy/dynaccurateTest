@@ -26,7 +26,7 @@ data class UserService(
     private val userFormularyMapper: UserFormularyMapper,
     private val eventViewMapper: EventViewMapper,
     @Autowired private val messageSender: MessageSender,
-    private val notFoundMessage: String = "O usuário do escopo não é válido."
+    private val notFoundMessage: String = "The id of the scope was invalid."
 ) {
     fun list(): List<UserView> {
         return repository.findAll().stream().map { user -> userViewMapper.map(user)

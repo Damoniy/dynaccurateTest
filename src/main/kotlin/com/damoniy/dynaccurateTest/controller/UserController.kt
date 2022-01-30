@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.*
 import org.springframework.web.util.UriComponentsBuilder
 import javax.validation.Valid
 
+
 @RestController
 @RequestMapping("/users")
 class UserController(
     private val userService: UserService,
 ) {
-
     @GetMapping
     fun list(): List<UserView> {
         return userService.list()
@@ -30,7 +30,7 @@ class UserController(
     fun findEvents(
         @PathVariable id: Int,
         @RequestParam(required = false) fromDate: String?,
-        @RequestParam(required = false) toDate: String?
+        @RequestParam(required = false) toDate: String?,
     ): EventView {
         if(DateTimeUtil.assertDateStringNonNull(fromDate, toDate)) {
             val initialDate = DateTimeUtil.extractDateFrom(fromDate)
