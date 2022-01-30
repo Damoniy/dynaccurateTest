@@ -11,7 +11,7 @@ INFO: THIS PROJECT WAS WRITTEN IN KOTLIN - JDK 11.
 
 
 REST API -> docker command: docker pull damoniy/dynaccurate-test:latest
-|-|-| RABBITMQ MESSAGE CONSUMER -> docker command: docker pull damoniy/rabbitmq-consumer:latest
+|-               | -               | RABBITMQ MESSAGE CONSUMER -> docker command: docker pull damoniy/rabbitmq-consumer:latest
 
 
 2. After pull the projects, run the two images.
